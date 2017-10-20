@@ -30,15 +30,15 @@
       'name': 'keyword.controle.magma'
     }
     {
-      'match': '[0-9]+(.[0-9]+)?'
+      'match': '\\b[0-9]+(.[0-9]+)?'
       'name': 'constant.numeric.magma'
     }
     {
-      'match': '[A-Za-z]+(?=(\\s)*\\()'
+      'match': '[A-Za-z][A-Za-z0-9]*(?=(\\s)*(\\(|<))'
       'name': 'entity.name.function.magma'
     }
     {
-      'match': '[A-Za-z]+'
+      'match': '[A-Za-z][A-Za-z0-9]*'
       'name': 'variable.other.magma'
     }
 ]
