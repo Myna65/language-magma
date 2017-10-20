@@ -1,0 +1,12 @@
+{
+  "name": "language-magma",
+  "version": "0.0.0",
+  "description": "Magma language support in Atom",
+  "repository": "https://github.com/Myna65/language-magma",
+  "license": "MIT",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {
+  }
+}

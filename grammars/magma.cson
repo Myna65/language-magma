@@ -1,0 +1,44 @@
+'scopeName': 'source.magma'
+'name': 'Magma'
+'fileTypes' : ['magma']
+'patterns': [
+    {
+      'match': ';'
+      'name': 'punctuation.terminator.statement.magma'
+    }
+    {
+      'begin': '/\\*'
+      'end': '\\*/'
+      'name': 'comment.block.magma'
+    }
+    {
+      'begin': '//'
+      'end': '\\n'
+      'name': 'comment.line.magma'
+    }
+    {
+      'begin': '"'
+      'end': '"'
+      'name': 'string.quoted.double.magma'
+    }
+    {
+      'match': '#|\\+|:|\\||~|:='
+      'name': 'keyword.operator.magma'
+    }
+    {
+      'match': '\\b(procedure|if|for|while|do|then|else|end|in|to|ne|eq|gt|lt)\\b'
+      'name': 'keyword.controle.magma'
+    }
+    {
+      'match': '[0-9]+(.[0-9]+)?'
+      'name': 'constant.numeric.magma'
+    }
+    {
+      'match': '[A-Za-z]+(?=(\\s)*\\()'
+      'name': 'entity.name.function.magma'
+    }
+    {
+      'match': '[A-Za-z]+'
+      'name': 'variable.other.magma'
+    }
+]
