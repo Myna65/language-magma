@@ -26,7 +26,7 @@
       'name': 'keyword.operator.magma'
     }
     {
-      'match': '\\b(procedure|if|for|while|do|then|else|end|in|to|ne|eq|gt|lt)\\b'
+      'match': '\\b(procedure|if|for|while|do|then|else|end|in|to|print|ne|eq|gt|lt)\\b'
       'name': 'keyword.controle.magma'
     }
     {
