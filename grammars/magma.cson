@@ -26,11 +26,11 @@
       'name': 'keyword.operator.magma'
     }
     {
-      'match': '\\b(procedure|if|for|while|do|then|else|end|in|to|print|ne|eq|gt|lt)\\b'
+      'match': '\\b(procedure|if|for|while|do|then|else|end|in|to|print|ne|eq|gt|lt|function|return)\\b'
       'name': 'keyword.controle.magma'
     }
     {
-      'match': '\\b[0-9]+(.[0-9]+)?'
+      'match': '\\b([0-9]+(.[0-9]+)?)|true|false'
       'name': 'constant.numeric.magma'
     }
     {
