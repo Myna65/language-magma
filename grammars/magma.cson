@@ -38,6 +38,10 @@
       'name': 'entity.name.function.magma'
     }
     {
+      'match': 'meet|join'
+      'name': 'entity.name.function.infix.magma'
+    }
+    {
       'match': '[A-Za-z][A-Za-z0-9]*'
       'name': 'variable.other.magma'
     }
